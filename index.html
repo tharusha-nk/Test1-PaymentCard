@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css">
+    <title>Billing Page</title>
+</head>
+
+<body>
+    <div class="billing">
+        <div class="billing-container">
+            <p>Select the payment mehtod</p>
+            <input type="checkbox" name="check-credit" id="creditCard">
+            <label for="check-credit">Credit Card</label>
+            <br>
+            <input type="checkbox" name="paypal" id="paypalCheck">
+            <label for="paypal">Paypal</label>
+            <br>
+            <input type="checkbox" name="cash" id="cashCheck">
+            <label for="cash">Cash</label>
+            <br>
+            <div class="btn" style="display: flex; justify-content: space-between;">
+            <button id="mysubmit">Continue</button>
+            <button id="closebtn" style="width: 20%; margin-right: 10px; background-color: #ff3535;">Close</button>
+            </div>
+        </div>
+        <div class="alert">
+            <p id="alertmsg"></p>
+        </div>
+    </div>
+    <script src="src/script.js"></script>
+</body>
+
+</html>
